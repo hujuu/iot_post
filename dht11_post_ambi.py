@@ -22,6 +22,6 @@ while True:
         print("Temperature: %d C" % result.temperature)
         print("Humidity: %d %%" % result.humidity)
 
-        r = ambi.send({"d1": result.temperature, "d2": result.humidity})
+        r = ambi.send({"d3": result.temperature, "d4": result.humidity})
 
-    time.sleep(10)
+    time.sleep(5)
