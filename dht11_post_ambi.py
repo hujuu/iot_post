@@ -24,4 +24,4 @@ while True:
 
         r = ambi.send({"d3": result.temperature, "d4": result.humidity})
 
-    time.sleep(5)
+    time.sleep(10)
